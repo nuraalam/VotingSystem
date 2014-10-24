@@ -1,0 +1,12 @@
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\bin\Debug\VotingSystemApp.exe.config
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.MainUi.resources
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.Properties.Resources.resources
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.csproj.GenerateResource.Cache
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\bin\Debug\VotingSystemApp.exe
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\bin\Debug\VotingSystemApp.pdb
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.exe
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.pdb
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.CandidateEntryUi.resources
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.VoteUi.resources
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.WinnerUi.resources
+C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.csprojResolveAssemblyReference.cache
