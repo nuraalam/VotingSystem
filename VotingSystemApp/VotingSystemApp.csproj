@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,8 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\CandidateEntryGateway.cs" />
     <Compile Include="UI\Candidate.cs" />
-    <Compile Include="UI\CandidateEntryBLL.cs" />
+    <Compile Include="BLL\CandidateEntryBLL.cs" />
     <Compile Include="UI\CandidateEntryUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,7 +109,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\" />
     <Folder Include="DLL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
