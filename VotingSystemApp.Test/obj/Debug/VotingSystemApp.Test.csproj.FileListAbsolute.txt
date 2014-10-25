@@ -7,3 +7,12 @@ C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp.Test\bin\Debug\VotingSyst
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp.Test\bin\Debug\nunit.framework.xml
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.dll
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.pdb
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.Test.dll
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.Test.pdb
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\bin\Debug\nunit.framework.dll
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.exe
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.pdb
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\bin\Debug\nunit.framework.xml
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.csprojResolveAssemblyReference.cache
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.dll
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.pdb

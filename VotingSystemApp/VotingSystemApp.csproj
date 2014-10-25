@@ -44,8 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UI\Candidate.cs" />
-    <Compile Include="UI\CandidateEntryBLL.cs" />
+    <Compile Include="DLL\DAO\Candidate.cs" />
+    <Compile Include="BLL\CandidateEntryBLL.cs" />
     <Compile Include="UI\CandidateEntryUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,8 +107,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\" />
-    <Folder Include="DLL\" />
+    <Folder Include="DLL\GATEWAY\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

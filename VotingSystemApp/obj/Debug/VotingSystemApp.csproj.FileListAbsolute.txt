@@ -10,3 +10,14 @@ C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.VoteUi.resources
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.WinnerUi.resources
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp\obj\Debug\VotingSystemApp.csprojResolveAssemblyReference.cache
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe.config
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.exe
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.pdb
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.CandidateEntryUi.resources
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.MainUi.resources
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.Properties.Resources.resources
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.VoteUi.resources
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.WinnerUi.resources
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csproj.GenerateResource.Cache
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe
+G:\SADDAM HOSSAIN RANA\gituuuuuu\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.pdb
