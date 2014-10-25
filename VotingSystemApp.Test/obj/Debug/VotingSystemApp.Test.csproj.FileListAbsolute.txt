@@ -7,3 +7,12 @@ C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp.Test\bin\Debug\VotingSyst
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp.Test\bin\Debug\nunit.framework.xml
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.dll
 C:\Users\Hafiz\Desktop\VotingSystemApp\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.pdb
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.Test.dll
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.Test.pdb
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\nunit.framework.dll
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.exe
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.pdb
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\nunit.framework.xml
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.csprojResolveAssemblyReference.cache
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.dll
+C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.pdb
