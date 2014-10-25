@@ -16,5 +16,11 @@ namespace VotingSystemApp
         {
             InitializeComponent();
         }
+
+        private void saveButton_Click(object sender, EventArgs e)
+        {
+            int numberOfWinner = Convert.ToInt32(numberOfWinnerTextBox.Text);
+            Candidate.numberOfWinner = numberOfWinner;
+        }
     }
 }

@@ -6,6 +6,7 @@
         {
            CandidateEntryGateway aCandidateEntryGateway=new CandidateEntryGateway();
             aCandidateEntryGateway.Save(aCandidate);
+            
             return "Saved";
         }
     }

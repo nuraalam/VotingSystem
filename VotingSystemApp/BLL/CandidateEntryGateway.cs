@@ -11,14 +11,22 @@ namespace VotingSystemApp
 
         private static void CallForConnection()
         {
-            string conn = ConfigurationManager.ConnectionStrings["VottingSystem"].ConnectionString;
+            string conn = ConfigurationManager.ConnectionStrings["VotingSystem"].ConnectionString;
             connection = new SqlConnection(conn);
             connection.ConnectionString = conn;
 
         }
         public void Save(Candidate aCandidate)
         {
-            
+            CallForConnection();
+            connection.Open();
+            query = "INSERT INTO t_candidate (Name,Symbol) Values(@0,@1)";
+            command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@0", aCandidate.Name);
+            command.Parameters.AddWithValue("@1", aCandidate.Symbol);
+            command.ExecuteNonQuery();
+            connection.Close();
         }
     }
 }

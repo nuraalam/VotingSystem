@@ -52,6 +52,7 @@
             this.castButton.TabIndex = 1;
             this.castButton.Text = "Cast";
             this.castButton.UseVisualStyleBackColor = true;
+            this.castButton.Click += new System.EventHandler(this.castButton_Click);
             // 
             // label1
             // 

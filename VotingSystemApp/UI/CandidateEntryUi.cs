@@ -23,6 +23,7 @@ namespace VotingSystemApp
             CandidateEntryBLL aCandidateEntryBLL=new CandidateEntryBLL();
             string msg = aCandidateEntryBLL.Save(aCandidate);
             
+            
         }
     }
 }

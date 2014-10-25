@@ -15,6 +15,22 @@ namespace VotingSystemApp
         public VoteUi()
         {
             InitializeComponent();
+            ShowSymbolOfCandidateInComboBox();
+        }
+
+        private void ShowSymbolOfCandidateInComboBox()
+        {
+            List<Candidate> candidatesList = VoteBll.GetCandidateList();
+            foreach (var candidate in candidatesList)
+            {
+                selectSymbolOfCandidateComboBox.Items.Add(candidate);
+            }
+            selectSymbolOfCandidateComboBox.DisplayMember = "Symbol";
+        }
+
+        private void castButton_Click(object sender, EventArgs e)
+        {
+          Voter aVoter=new Voter();
         }
     }
 }
