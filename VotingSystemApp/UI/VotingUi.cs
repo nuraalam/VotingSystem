@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace VotingSystemApp
 {
-    public partial class VoteUi : Form
+    public partial class VotingUi : Form
     {
-        public VoteUi()
+        public VotingUi()
         {
             InitializeComponent();
             ShowSymbolOfCandidateInComboBox();
@@ -20,7 +20,7 @@ namespace VotingSystemApp
 
         private void ShowSymbolOfCandidateInComboBox()
         {
-            List<Candidate> candidatesList = VoteBll.GetCandidateList();
+            List<Candidate> candidatesList = VotingBll.GetCandidateList();
             foreach (var candidate in candidatesList)
             {
                 selectSymbolOfCandidateComboBox.Items.Add(candidate);
@@ -30,7 +30,14 @@ namespace VotingSystemApp
 
         private void castButton_Click(object sender, EventArgs e)
         {
-          Voter aVoter=new Voter();
+            Voter aVoter=new Voter();
+            aVoter.Email = votersEmailAddressTextBox.Text;
+            aVoter.VoterID = VotingBll.GetVoterID(aVoter.Email);
+            Candidate aCandidate=new Candidate();
+            aCandidate = (Candidate) selectSymbolOfCandidateComboBox.SelectedItem;
+            string msg = VotingBll.VoteCast(aVoter.VoterID, aCandidate.CandidateID);
+            MessageBox.Show(msg);
+
         }
     }
 }

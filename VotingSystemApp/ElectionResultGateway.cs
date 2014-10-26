@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 
 namespace VotingSystemApp
 {
-    internal class VoteGateway
+    internal class ElectionResultGateway
     {
-
         private static SqlConnection connection;
         private static SqlCommand command;
         private static string query;
@@ -19,26 +17,24 @@ namespace VotingSystemApp
             connection.ConnectionString = conn;
 
         }
-        public static List<Candidate> GetCandidateList()
+        public static int GetCandidateVote(int candidateId)
         {
             CallForConnection();
             connection.Open();
-            query = String.Format("SELECT* FROM t_candidate");
+            query = String.Format("SELECT* FROM t_voting");
             command = new SqlCommand(query, connection);
             SqlDataReader aReader = command.ExecuteReader();
-            List<Candidate> candidateList = new List<Candidate>();
+            int count = 0;
 
             if (aReader.HasRows)
                 while (aReader.Read())
                 {
-                    Candidate aCandidate=new Candidate();
-                    aCandidate.CandidateID = (int)aReader[0];
-                    aCandidate.Name = aReader[1].ToString();
-                    aCandidate.Symbol = aReader[2].ToString();
-                    candidateList.Add(aCandidate);
+                    if (candidateId == (int)aReader[2])
+                        count++;
+
                 }
             connection.Close();
-            return candidateList;   
+            return count;
         }
     }
 }

@@ -9,7 +9,7 @@ namespace VotingSystemApp
         public string Name { get; set; }
         public string Symbol { get; set; }
         public static int numberOfWinner { get; set; }
-
+        public  int Vote { get; set; }
       
 
         public Candidate(string name, string symbol)

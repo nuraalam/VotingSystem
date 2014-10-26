@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace VotingSystemApp
 {
     public partial class WinnerUi : Form
@@ -21,6 +22,8 @@ namespace VotingSystemApp
         {
             int numberOfWinner = Convert.ToInt32(numberOfWinnerTextBox.Text);
             Candidate.numberOfWinner = numberOfWinner;
+            MessageBox.Show("Number of winner is saved");
+            
         }
     }
 }

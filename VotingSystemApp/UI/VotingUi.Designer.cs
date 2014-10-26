@@ -1,6 +1,6 @@
 ﻿namespace VotingSystemApp
 {
-    partial class VoteUi
+    partial class VotingUi
     {
         /// <summary>
         /// Required designer variable.
@@ -88,7 +88,7 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Cast Your Vote";
             // 
-            // VoteUi
+            // VotingUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -99,8 +99,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.castButton);
             this.Controls.Add(this.selectSymbolOfCandidateComboBox);
-            this.Name = "VoteUi";
-            this.Text = "VoteUi";
+            this.Name = "VotingUi";
+            this.Text = "VotingUi";
             this.ResumeLayout(false);
             this.PerformLayout();
 

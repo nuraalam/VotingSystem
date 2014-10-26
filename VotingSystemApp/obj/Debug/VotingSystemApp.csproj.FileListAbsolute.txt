@@ -21,3 +21,16 @@ C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.Win
 C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csproj.GenerateResource.Cache
 C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe
 C:\Users\PC21\Desktop\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.pdb
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe.config
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.pdb
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.ElectionResultUi.resources
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.CandidateEntryUi.resources
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.MainUi.resources
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.Properties.Resources.resources
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.VotingUi.resources
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.WinnerUi.resources
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csproj.GenerateResource.Cache
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.exe
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.pdb
+C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csprojResolveAssemblyReference.cache

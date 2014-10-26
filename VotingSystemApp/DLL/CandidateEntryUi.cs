@@ -22,8 +22,8 @@ namespace VotingSystemApp
             Candidate aCandidate=new Candidate(candidateNameTextBox.Text,symbolTextBox.Text);
             CandidateEntryBLL aCandidateEntryBLL=new CandidateEntryBLL();
             string msg = aCandidateEntryBLL.Save(aCandidate);
-            
-            
+            MessageBox.Show(msg);
+
         }
     }
 }
