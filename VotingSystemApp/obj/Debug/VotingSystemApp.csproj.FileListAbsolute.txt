@@ -33,4 +33,3 @@ C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.Wi
 C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csproj.GenerateResource.Cache
 C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.exe
 C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.pdb
-C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csprojResolveAssemblyReference.cache

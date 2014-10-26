@@ -48,19 +48,19 @@
     <Compile Include="DLL\Gateway\CandidateEntryGateway.cs" />
     <Compile Include="DLL\DAO\Candidate.cs" />
     <Compile Include="BLL\CandidateEntryBLL.cs" />
-    <Compile Include="ElectionResultBll.cs" />
-    <Compile Include="ElectionResultGateway.cs" />
-    <Compile Include="ElectionResultUi.cs">
+    <Compile Include="BLL\ElectionResultBll.cs" />
+    <Compile Include="DLL\Gateway\ElectionResultGateway.cs" />
+    <Compile Include="UI\ElectionResultUi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ElectionResultUi.Designer.cs">
+    <Compile Include="UI\ElectionResultUi.Designer.cs">
       <DependentUpon>ElectionResultUi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Result.cs" />
-    <Compile Include="DLL\CandidateEntryUi.cs">
+    <Compile Include="DLL\DAO\Result.cs" />
+    <Compile Include="UI\CandidateEntryUi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DLL\CandidateEntryUi.Designer.cs">
+    <Compile Include="UI\CandidateEntryUi.Designer.cs">
       <DependentUpon>CandidateEntryUi.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\MainUI.cs">
@@ -86,10 +86,10 @@
     <Compile Include="UI\WinnerUi.Designer.cs">
       <DependentUpon>WinnerUi.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ElectionResultUi.resx">
+    <EmbeddedResource Include="UI\ElectionResultUi.resx">
       <DependentUpon>ElectionResultUi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DLL\CandidateEntryUi.resx">
+    <EmbeddedResource Include="UI\CandidateEntryUi.resx">
       <DependentUpon>CandidateEntryUi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\MainUI.resx">

@@ -7,6 +7,11 @@ namespace VotingSystemApp
     {
         public static List<Result> GetEllectionResult()
         {
+            if (Candidate.numberOfWinner==0)
+            {
+                List<Result> emptyResult=new List<Result>();
+                return emptyResult;
+            }
             return GetResult();
         }
 
@@ -16,11 +21,12 @@ namespace VotingSystemApp
             int disableTieLoop = 0;
             int disableLooserLoop = 0;
             int tieFlag = 0;
-            int looserIndex = 0;
+            
             List<Result> results = new List<Result>();
             List<Candidate> candidatesWithVoteInOrder = GetCandidateVoteInOrder();
             foreach (var candidate in candidatesWithVoteInOrder)
             {
+                int looserIndex = 0;
                 Result aResult = new Result();
                 aResult.CandidateName = candidate.Name;
                 aResult.Symbol = candidate.Symbol;
@@ -36,11 +42,9 @@ namespace VotingSystemApp
                             aResult.vote = candidate.Vote;
                             results.Add(aResult);
                             looserIndex = 0;
-
                         }                     
                     }                    
-                }
-                looserIndex = 0;
+                }                
               
                 if (aResult.Status == null)
                 {
