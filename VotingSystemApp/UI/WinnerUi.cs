@@ -20,8 +20,17 @@ namespace VotingSystemApp
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            int numberOfWinner = Convert.ToInt32(numberOfWinnerTextBox.Text);
-            Candidate.numberOfWinner = numberOfWinner;
+            try
+            {
+                int numberOfWinner = Convert.ToInt32(numberOfWinnerTextBox.Text);
+                Candidate.numberOfWinner = numberOfWinner;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Only numbers are in the field");
+                return;
+            }
+          
             MessageBox.Show("Number of winner is saved");
             
         }

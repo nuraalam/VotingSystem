@@ -30,6 +30,11 @@ namespace VotingSystemApp
 
         private void castButton_Click(object sender, EventArgs e)
         {
+            if (votersEmailAddressTextBox.Text == "" || selectSymbolOfCandidateComboBox.Text == "")
+            {
+                MessageBox.Show("Please fill the filled accordingly");
+                return;
+            }
             Voter aVoter=new Voter();
             aVoter.Email = votersEmailAddressTextBox.Text;
             aVoter.VoterID = VotingBll.GetVoterID(aVoter.Email);

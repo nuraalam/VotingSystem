@@ -11,5 +11,21 @@ namespace VotingSystemApp.Test
     class VotingSystemTest
     {
         
+        [SetUp]
+        public void Start()
+        {
+           
+        }
+
+
+
+
+
+        [TearDown]
+        public void End()
+        {
+            
+        }
+        
     }
 }

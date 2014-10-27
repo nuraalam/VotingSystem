@@ -73,7 +73,6 @@ namespace VotingSystemApp
             command.Parameters.AddWithValue("@1", candidateId);
             command.ExecuteNonQuery();
             connection.Close();
-            //throw new Exception();
         }
 
         public static int NumberOfVoteOfAVoter(int voterId)
