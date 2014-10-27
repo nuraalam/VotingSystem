@@ -12,6 +12,7 @@ namespace VotingSystemApp
 {
     public partial class VotingUi : Form
     {
+        VotingBll aVotingBll = new VotingBll();
         public VotingUi()
         {
             InitializeComponent();
@@ -20,7 +21,8 @@ namespace VotingSystemApp
 
         private void ShowSymbolOfCandidateInComboBox()
         {
-            List<Candidate> candidatesList = VotingBll.GetCandidateList();
+            
+            List<Candidate> candidatesList = aVotingBll.GetCandidateList();
             foreach (var candidate in candidatesList)
             {
                 selectSymbolOfCandidateComboBox.Items.Add(candidate);
@@ -37,10 +39,10 @@ namespace VotingSystemApp
             }
             Voter aVoter=new Voter();
             aVoter.Email = votersEmailAddressTextBox.Text;
-            aVoter.VoterID = VotingBll.GetVoterID(aVoter.Email);
+            aVoter.VoterID = aVotingBll.GetVoterID(aVoter.Email);
             Candidate aCandidate=new Candidate();
             aCandidate = (Candidate) selectSymbolOfCandidateComboBox.SelectedItem;
-            string msg = VotingBll.VoteCast(aVoter.VoterID, aCandidate.CandidateID);
+            string msg = aVotingBll.VoteCast(aVoter.VoterID, aCandidate.CandidateID);
             MessageBox.Show(msg);
 
         }

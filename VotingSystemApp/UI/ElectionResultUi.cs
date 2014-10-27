@@ -18,9 +18,10 @@ namespace VotingSystemApp
             ShowResult();
         }
 
-        private void ShowResult()
+        public void ShowResult()
         {
-            List<Result> results = ElectionResultBll.GetEllectionResult();
+            ElectionResultBll aElectionResultBll=new ElectionResultBll();
+            List<Result> results = aElectionResultBll.GetEllectionResult();
             results=results.OrderByDescending(o=>o.vote).ToList();
             foreach (var result in results)
             {

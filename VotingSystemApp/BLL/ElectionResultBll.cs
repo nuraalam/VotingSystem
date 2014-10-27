@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace VotingSystemApp
 {
-    internal class ElectionResultBll
+    class ElectionResultBll
     {
-        public static List<Result> GetEllectionResult()
+        public  List<Result> GetEllectionResult()
         {
             if (Candidate.numberOfWinner==0)
             {
@@ -15,7 +15,7 @@ namespace VotingSystemApp
             return GetResult();
         }
 
-        private static List<Result> GetResult()
+        public  List<Result> GetResult()
         {
             int vote=0;
             int disableTieLoop = 0;
@@ -86,13 +86,15 @@ namespace VotingSystemApp
             return results;
         }
 
-        private static List<Candidate> GetCandidateVoteInOrder()
-        {
-            List<Candidate> candidateList = VotingGateway.GetCandidateList();
+        public  List<Candidate> GetCandidateVoteInOrder()
+        { 
+            VotingGateway aVotingGateway=new VotingGateway();
+            ElectionResultGateway aElectionResultGateway=new ElectionResultGateway();
+            List<Candidate> candidateList = aVotingGateway.GetCandidateList();
             List<Candidate> candidateListWithVote = new List<Candidate>();
             foreach (var candidate in candidateList)
             {
-                candidate.Vote = ElectionResultGateway.GetCandidateVote(candidate.CandidateID);
+                candidate.Vote = aElectionResultGateway.GetCandidateVote(candidate.CandidateID);
                 candidateListWithVote.Add(candidate);
             }
             List<Candidate> candidateShortingList = new List<Candidate>();

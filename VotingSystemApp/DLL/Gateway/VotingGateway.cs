@@ -3,24 +3,15 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Threading;
+using VotingSystemApp.DLL.Gateway;
 
 namespace VotingSystemApp
 {
-    internal class VotingGateway
+    class VotingGateway:Gateway
     {
 
-        private static SqlConnection connection;
-        private static SqlCommand command;
-        private static string query;
-
-        private static void CallForConnection()
-        {
-            string conn = ConfigurationManager.ConnectionStrings["VotingSystem"].ConnectionString;
-            connection = new SqlConnection(conn);
-            connection.ConnectionString = conn;
-
-        }
-        public static List<Candidate> GetCandidateList()
+       
+        public  List<Candidate> GetCandidateList()
         {
             CallForConnection();
             connection.Open();
@@ -42,7 +33,7 @@ namespace VotingSystemApp
             return candidateList;   
         }
 
-        public static int GetVoterID(string email)
+        public  int GetVoterID(string email)
         {
             CallForConnection();
             connection.Open();
@@ -62,20 +53,20 @@ namespace VotingSystemApp
             return voterID;
         }
 
-        public static void VoteCast(int voterId, int candidateId)
+        public  void VoteCast(int voterId, int candidateId)
         {
             CallForConnection();
             connection.Open();
             query = "INSERT INTO t_voting (VoterID,CandidateID) Values(@0,@1)";
             command = new SqlCommand(query, connection);
-
+            command.Parameters.Clear();
             command.Parameters.AddWithValue("@0", voterId);
             command.Parameters.AddWithValue("@1", candidateId);
             command.ExecuteNonQuery();
             connection.Close();
         }
 
-        public static int NumberOfVoteOfAVoter(int voterId)
+        public  int NumberOfVoteOfAVoter(int voterId)
         {
             CallForConnection();
             connection.Open();

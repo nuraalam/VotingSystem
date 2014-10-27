@@ -3,27 +3,28 @@ using System.Collections.Generic;
 
 namespace VotingSystemApp
 {
-    internal class VotingBll
+    class VotingBll
     {
-        public static List<Candidate> GetCandidateList()
+        VotingGateway aVotingGateway=new VotingGateway();
+        public  List<Candidate> GetCandidateList()
         {
-            return VotingGateway.GetCandidateList();
+            return aVotingGateway.GetCandidateList();
         }
 
-        public static int GetVoterID(string email)
+        public  int GetVoterID(string email)
         {
-            return VotingGateway.GetVoterID(email);
+            return aVotingGateway.GetVoterID(email);
         }
 
-        public static string VoteCast(int voterId, int candidateId)
+        public  string VoteCast(int voterId, int candidateId)
         {
             if (Candidate.numberOfWinner == 0)
                 return "Number of winner has not been selected for this election\nYour vote will not be casted at this moment";
-            if (VotingGateway.NumberOfVoteOfAVoter(voterId) < Candidate.numberOfWinner)
+            if (aVotingGateway.NumberOfVoteOfAVoter(voterId) < Candidate.numberOfWinner)
             {
                 try
                 {
-                    VotingGateway.VoteCast(voterId, candidateId);
+                    aVotingGateway.VoteCast(voterId, candidateId);
                 }
                 catch (Exception)
                 {

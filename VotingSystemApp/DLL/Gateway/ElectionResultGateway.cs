@@ -1,23 +1,14 @@
 ﻿using System;
 using System.Configuration;
 using System.Data.SqlClient;
+using VotingSystemApp.DLL.Gateway;
 
 namespace VotingSystemApp
 {
-    internal class ElectionResultGateway
+    internal class ElectionResultGateway:Gateway
     {
-        private static SqlConnection connection;
-        private static SqlCommand command;
-        private static string query;
-
-        private static void CallForConnection()
-        {
-            string conn = ConfigurationManager.ConnectionStrings["VotingSystem"].ConnectionString;
-            connection = new SqlConnection(conn);
-            connection.ConnectionString = conn;
-
-        }
-        public static int GetCandidateVote(int candidateId)
+       
+        public  int GetCandidateVote(int candidateId)
         {
             CallForConnection();
             connection.Open();
