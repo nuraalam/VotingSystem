@@ -34,3 +34,12 @@ C:\Users\PC21\Desktop\ClassTest\VotingSystem\VotingSystemApp.Test\bin\Debug\nuni
 C:\Users\PC21\Desktop\ClassTest\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.csprojResolveAssemblyReference.cache
 C:\Users\PC21\Desktop\ClassTest\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.dll
 C:\Users\PC21\Desktop\ClassTest\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.pdb
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.Test.dll
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.Test.pdb
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\nunit.framework.dll
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.exe
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\VotingSystemApp.pdb
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\bin\Debug\nunit.framework.xml
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.csprojResolveAssemblyReference.cache
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.dll
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp.Test\obj\Debug\VotingSystemApp.Test.pdb

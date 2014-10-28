@@ -46,3 +46,16 @@ C:\Users\PC21\Desktop\ClassTest\VotingSystem\VotingSystemApp\obj\Debug\VotingSys
 C:\Users\PC21\Desktop\ClassTest\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.VotingUi.resources
 C:\Users\PC21\Desktop\ClassTest\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.WinnerUi.resources
 C:\Users\PC21\Desktop\ClassTest\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csproj.GenerateResource.Cache
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe.config
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.exe
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.pdb
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.pdb
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csprojResolveAssemblyReference.cache
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.ElectionResultUi.resources
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.CandidateEntryUi.resources
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.MainUi.resources
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.Properties.Resources.resources
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.VotingUi.resources
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.WinnerUi.resources
+C:\Users\RANA\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csproj.GenerateResource.Cache

@@ -13,6 +13,9 @@ namespace VotingSystemApp
     public partial class VotingUi : Form
     {
         VotingBll aVotingBll = new VotingBll();
+        private Voter aVoter;
+        private Candidate selectedItem;
+
         public VotingUi()
         {
             InitializeComponent();
@@ -37,12 +40,12 @@ namespace VotingSystemApp
                 MessageBox.Show("Please fill the filled accordingly");
                 return;
             }
-            Voter aVoter=new Voter();
+            aVoter = new Voter();
             aVoter.Email = votersEmailAddressTextBox.Text;
             aVoter.VoterID = aVotingBll.GetVoterID(aVoter.Email);
-            Candidate aCandidate=new Candidate();
-            aCandidate = (Candidate) selectSymbolOfCandidateComboBox.SelectedItem;
-            string msg = aVotingBll.VoteCast(aVoter.VoterID, aCandidate.CandidateID);
+            selectedItem = new Candidate();
+            selectedItem = (Candidate) selectSymbolOfCandidateComboBox.SelectedItem;
+            string msg = aVotingBll.VoteCast(aVoter.VoterID, selectedItem.CandidateID);
             MessageBox.Show(msg);
 
         }

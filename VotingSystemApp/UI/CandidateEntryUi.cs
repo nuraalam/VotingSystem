@@ -12,6 +12,9 @@ namespace VotingSystemApp
 {
     public partial class CandidateEntryUi : Form
     {
+        private Candidate aCandidate;
+        private CandidateEntryBLL aCandidateEntryBll;
+
         public CandidateEntryUi()
         {
             InitializeComponent();
@@ -19,9 +22,9 @@ namespace VotingSystemApp
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            Candidate aCandidate=new Candidate(candidateNameTextBox.Text,symbolTextBox.Text);
-            CandidateEntryBLL aCandidateEntryBLL=new CandidateEntryBLL();
-            string msg = aCandidateEntryBLL.Save(aCandidate);
+            aCandidate = new Candidate(candidateNameTextBox.Text,symbolTextBox.Text);
+            aCandidateEntryBll = new CandidateEntryBLL();
+            string msg = aCandidateEntryBll.Save(aCandidate);
             MessageBox.Show(msg);
 
         }
