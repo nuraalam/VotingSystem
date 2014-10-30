@@ -34,3 +34,16 @@ C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.cs
 C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.exe
 C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.pdb
 C:\Users\Hafiz\Desktop\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csprojResolveAssemblyReference.cache
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe.config
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.exe
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.pdb
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.exe
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\bin\Debug\VotingSystemApp.pdb
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csprojResolveAssemblyReference.cache
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.ElectionResultUi.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.CandidateEntryUi.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.MainUi.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.Properties.Resources.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.VotingUi.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.WinnerUi.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\VotingSystem\VotingSystemApp\obj\Debug\VotingSystemApp.csproj.GenerateResource.Cache
